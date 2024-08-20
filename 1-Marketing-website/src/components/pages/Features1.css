@@ -4,8 +4,8 @@
     justify-content: space-around;
 }
 .Feature{
-  background-color: rgba(58, 58, 80, 0.11);
-  backdrop-filter: blur(10px);
+  background-color: #3a3a501c;
+  /* backdrop-filter: blur(10px); */
 
     /* backdrop-filter: blur(1280px); */
     border-radius: 10px;

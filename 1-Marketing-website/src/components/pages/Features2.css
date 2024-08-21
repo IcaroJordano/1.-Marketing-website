@@ -1,19 +1,16 @@
 .Features2{
-    /* background-color: aqua; */
+    margin-bottom: 5%;
     width: 100%;
     overflow: hidden;
-    /* height: 90vh; */
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
+    padding-top: 15%;
 }
-/* .Features2  */
 .h2{
+    margin-bottom: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 32px;
-    /* height: 15vh; */
     text-align: center;
-    /* margin-bottom: 20%; */
-    /* background-color: aqua; */
     color: rgb(236, 236, 236);
 }
+h2{margin-bottom: 10%;}

@@ -1,0 +1,36 @@
+.ContactUs{
+    /*  */
+    backdrop-filter: blur(100px);
+    background-color: #343d4ed3;
+    width: 90vw;
+    height: 40vh;
+    border-radius:30px;
+    display: flex;
+    margin: 0% auto 5%;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.726);
+    border:solid 1px rgba(255, 255, 255, 0.192);
+}
+.ContactUs h2{
+    margin:5% 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.ContactUs p{
+    font-size: large;
+    margin: 0% auto 10%;
+    width: 93%;
+    /* background-color: #006d64; */
+    text-align: center;
+}
+.ContactUs button{
+    color:rgba(255, 255, 255, 0.726);
+    background-color: #006d64;
+    border: solid 1px rgba(0, 0, 0, 0.24);
+    width: 35vw;
+    height: 6vh;
+    font-size:20px;
+    border-radius:35px;
+}

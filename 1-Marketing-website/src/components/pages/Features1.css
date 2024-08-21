@@ -1,23 +1,16 @@
 .Features1{
-    /* background-color: white; */
-    /* height: 30vh; */
     justify-content: space-around;
 }
 .Feature{
-  background-color: #3a3a501c;
-  /* backdrop-filter: blur(10px); */
-
-    /* backdrop-filter: blur(1280px); */
+    background-color: #3a3a501c;
     border-radius: 10px;
-  /* background-color: rgba(31, 30, 34, 0.973) */
     border:solid 1px rgba(255, 255, 255, 0.199);
-  width: 90vw;
+    width: 90vw;
     height: 22vh;
     margin:0% auto 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
     color: white;
 }
 .Feature svg{
@@ -32,13 +25,10 @@
 }
 
 .Feature p{
-
     font-size: 15px;
     margin-top: 4%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 8vh;
     width: 90%;
-    /* margin-bottom: 0%; */
     text-align: center;
-    /* background-color: aqua; */
 }

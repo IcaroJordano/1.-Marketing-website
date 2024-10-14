@@ -34,3 +34,10 @@
     text-decoration: none;
     color:  #ffffff;
 }
+@media(min-width:768px){
+    .Navbar{
+        width: 90%;
+        left: 5%;
+        height: 10vh;
+    }
+}

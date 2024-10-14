@@ -6,13 +6,15 @@ import extres from "/home/icaro/Área de trabalho/50-Projects/1-Marketing-websit
 import abafador from "/home/icaro/Área de trabalho/50-Projects/1-Marketing-website/src/images/abafador.jpeg"
 
 function Features2() {
-    return(
+    return (
         <div className="Features2 h2">
             <h2>Features and New Modes</h2>
-            <CardFeature2 imagem={gamer} Titulo={'Game Mode'} ></CardFeature2>
-            <CardFeature2 imagem={abafador} Titulo={'Noise cancellation'} height={`height45`} content={"content"}></CardFeature2>
-            <CardFeature2 imagem={extres} Titulo={'De-stress Mode'} ></CardFeature2>
-            <CardFeature2 imagem={esportivo} Titulo={'Sport Mode'} height={`height45`} content={"content"}></CardFeature2>
+            <div className="cards">
+                <CardFeature2 imagem={gamer} Titulo={'Game Mode'} ></CardFeature2>
+                <CardFeature2 imagem={abafador} Titulo={'Noise cancellation'} height={`height45`} content={"content"}></CardFeature2>
+                <CardFeature2 imagem={extres} Titulo={'De-stress Mode'} ></CardFeature2>
+                <CardFeature2 imagem={esportivo} Titulo={'Sport Mode'} height={`height45`} content={"content"}></CardFeature2>
+            </div>
         </div>
     )
 }

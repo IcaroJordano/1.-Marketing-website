@@ -3,7 +3,7 @@ function ContactUs() {
     return(
         <div className="ContactUs">
             <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto consectetur debitis doloremque eum, perspiciatis cumque ipsa nisi deleniti corporis dolor necessitatibus</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto consectetur debitis doloremque eum, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab dolore sunt. Placeat minima laborum voluptate perspiciatis quaerat minus quam soluta sunt quis animi qui, omnis facilis ut blanditiis molestias. perspiciatis cumque ipsa nisi deleniti corporis dolor necessitatibus</p>
             <button>Contact Us</button>
         </div>
     )

@@ -3,7 +3,7 @@
   padding: 0%;
 }
 body{
-  background-color: #2f3645;
+  background-color: #030712;
   height: 600vh;
 }
 ::-webkit-scrollbar{
@@ -17,60 +17,28 @@ body{
   height:25vh;
   /* border-radius: 0%; */
   margin: 0% auto 5vh;
-  background-image: url("/home/icaro/Área de trabalho/50-Projects/1-Marketing-website/src/images/A stunning.webp");
+  background-image: url("/src/images/fone4.jpg");
 }
 .img{
-  background-image: url("/home/icaro/Área de trabalho/50-Projects/1-Marketing-website/src/images/premium_photo-1677838847804-4054143fb91a.jpg");
+  background-image: url("/home/icaro/Área de trabalho/50-Projects/1-Marketing-website/src/images/A stunning.webp");
   background-position: center;
   height:60vh;
   background-repeat: no-repeat;
-  /* background-size: cover; */
   width: 90vw;
-  /* border: solid 1px white; */
   border:solid 1px rgba(255, 255, 255, 0.199);
-
   border-radius:15px;
   margin: 10% auto;
 }
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(min-width:768px){
+  .img{
+    width: 90%;
+    height:70vh;
+    background-size: cover;
+    margin: 0% 5% 5%;
   }
-  to {
-    transform: rotate(360deg);
+  #one{
+    height:70vh;
+    border: none;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */

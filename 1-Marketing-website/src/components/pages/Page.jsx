@@ -1,5 +1,5 @@
 import "/home/icaro/Área de trabalho/50-Projects/1-Marketing-website/src/components/pages/Page.css"
-import image from "/home/icaro/Área de trabalho/50-Projects/1-Marketing-website/src/images/fone4.jpg"
+import image from "../../images/premium_photo-1677838847804-4054143fb91a.jpg"
 
 function Page() {
     return(

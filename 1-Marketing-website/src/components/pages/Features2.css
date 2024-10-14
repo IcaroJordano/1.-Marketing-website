@@ -14,3 +14,22 @@
     color: rgb(236, 236, 236);
 }
 h2{margin-bottom: 10%;}
+
+@media(min-width:768px){
+    .Features2{
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 0%;
+    }
+    .Features2 h2{
+        text-align: left;
+        padding-left: 2%;
+        margin-bottom: 2%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .Features2 .cards{
+        justify-content: space-around;
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
